@@ -1,7 +1,7 @@
 /* ========== NAVBAR ========== */
 header {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.822);
+  background-color: var(--transpatentBlack);
   height: 100px;
   display: flex;
   align-items: center;
@@ -21,8 +21,28 @@ header > section > a > img {
   align-items: center;
 }
 
-header > section > nav > a {
- display: none;
+header > section > nav {
+  display: none;
+}
+
+header > section #hidden {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  height: calc(100% - 100px);
+  width: 65%;
+  background-color: var(--transpatentBlack);
+  z-index: 10;
+  flex-direction: column;
+}
+
+header > section #hidden > a {
+  color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
 }
 /* ========== NAVBAR ========== */
 /* ========== HOME ========== */
@@ -83,10 +103,18 @@ header > section > nav > a {
     align-items: center;
   }
 
+  header > section > nav {
+    display: flex;
+  }
+
   header > section > nav > a {
     color: white;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     font-size: 1.1rem;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 }
 

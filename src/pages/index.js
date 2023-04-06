@@ -6,7 +6,6 @@ import { useRef } from 'react';
 export default function Home() {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
-  const colors = ['#0088FE', '#00C49F', '#FFBB28'];
   const sliderImages = [
     '/slider-images/dj-p-k-nrg-radio.jpg',
     '/slider-images/dj-p-k-dark-home-banner.jpg',
@@ -54,13 +53,16 @@ export default function Home() {
               style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
               {sliderImages.map((image, index) => (
-                <img
+                <Image
                   className='slide'
                   key={index}
                   src={image}
                   alt='Slider Image'
-                  // height={100}
-                  // width={100}
+                  height={100}
+                  width={100}
+                  quality={100}
+                  priority
+                  unoptimized
                 />
               ))}
             </div>

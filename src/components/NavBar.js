@@ -3,23 +3,34 @@ import logo from '../images/PRINCE-KIM-LOGO.png';
 import Image from 'next/image';
 import Link from 'next/link';
 // Import the FontAwesomeIcon component
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import the icons you need
-import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
-  const [navbar, setNavbar] = useState(false)
+  const [showLinks, setShowLinks] = useState(true);
   return (
     <header>
       <section>
         <Link href='/'>
           <Image src={logo} alt='Dj Prince Kim logo' priority />
         </Link>
-        <nav>
+        <div className='nav-toggle'>
+          {showLinks ? (
+            <FontAwesomeIcon
+              icon={faXmark}
+              onClick={() => setShowLinks(!showLinks)}
+              style={{ fontSize: '1.6rem', color: 'white' }}
+            />
+          ) : (
+            <FontAwesomeIcon
+              icon={faBars}
+              onClick={() => setShowLinks(!showLinks)}
+              style={{ fontSize: '1.5rem', color: 'white' }}
+            />
+          )}
+        </div>
+        <nav id={showLinks ? 'hidden' : ''} onClick={() => setShowLinks(false)}>
           <Link href='/'>Home</Link>
           <Link href='/about'>About Me</Link>
           <Link href='/services'>Services</Link>
