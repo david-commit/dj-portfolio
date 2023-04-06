@@ -22,6 +22,6 @@ header > section > a > img {
 
 header > section > nav > a {
  color: white;
- padding-left: 2rem;
+ margin-left: 2rem;
  font-size: 1.1rem;
 }

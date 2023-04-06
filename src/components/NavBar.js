@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../images/PRINCE-KIM-LOGO.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Header = () => {
+const NavBar = () => {
+  const [navbar, setNavbar] = useState(false)
   return (
     <header>
       <section>
@@ -23,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
