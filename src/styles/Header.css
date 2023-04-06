@@ -1,0 +1,27 @@
+header {
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.822);
+ height: 6rem;
+ display: flex;
+ align-items: center;
+}
+
+header > section {
+ display: flex;
+ width: 85%;
+ margin: 0 auto;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header > section > a > img {
+ width: 10rem;
+ height: 5.8rem;
+ align-items: center;
+}
+
+header > section > nav > a {
+ color: white;
+ padding-left: 2rem;
+ font-size: 1.1rem;
+}
