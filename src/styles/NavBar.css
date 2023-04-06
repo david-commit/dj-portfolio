@@ -1,27 +1,105 @@
+/* ========== NAVBAR ========== */
 header {
- width: 100%;
- background-color: rgba(0, 0, 0, 0.822);
- height: 6rem;
- display: flex;
- align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.822);
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 header > section {
- display: flex;
- width: 85%;
- margin: 0 auto;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header > section > a > img {
- width: 10rem;
- height: 5.8rem;
- align-items: center;
+  width: 7rem;
+  height: 4.5rem;
+  align-items: center;
 }
 
 header > section > nav > a {
- color: white;
- margin-left: 2rem;
- font-size: 1.1rem;
+ display: none;
 }
+/* ========== NAVBAR ========== */
+/* ========== HOME ========== */
+/* -- SLIDER -- */
+/* Slideshow */
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Buttons */
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 10px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: black;
+  box-shadow: rgba(79, 86, 89, 0.2) 0px 7px 29px 0px;
+}
+
+/* -- SLIDER -- */
+/* ====== MEDIA QUERIES ====== */
+/* Best Practice suggests */
+/* keep default style for smallest screen size (portrait mobile, below 576px) */
+/* and then proceed in assending order with media query like below */
+
+/* Small devices (landscape phones, 576px and above till next break point) */
+@media (min-width: 576px) {
+  header > section > a > img {
+    width: 10rem;
+    height: 5.8rem;
+    align-items: center;
+  }
+
+  header > section > nav > a {
+    color: white;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and above till next break point) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and above till next break point) */
+@media (min-width: 992px) {
+}
+
+/* Very large devices (desktops, 1200px and above till next break point) */
+@media (min-width: 1200px) {
+}
+/* ====== MEDIA QUERIES ====== */
+/* ========== HOME ========== */
