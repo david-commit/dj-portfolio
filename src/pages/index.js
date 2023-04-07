@@ -114,12 +114,59 @@ export default function Home() {
           </div>
         </div>
         {/* ========== HOME - ABOUT ========== */}
-          <div className='home-friends-full-seperator'>
-            <Image src='/dj-p-k-kubamba-backdrop.jpg'
+        <div className='home-friends-full-seperator'>
+          <Image
+            src='/dj-p-k-kubamba-backdrop.jpg'
             width={100}
             height={100}
-            unoptimized />
+            unoptimized
+          />
+        </div>
+        {/* ========== SERVICES ========== */}
+        <section className='home-services-main-container'>
+          <h1>Services</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+            similique consectetur! Iusto libero quae, labore amet sed
+            accusantium natus.
+          </p>
+          <div className='home-services-container'>
+            <div className='home-service'>
+              <Image src='/dj-p-k-in-event.jpg' width={100} height={100} alt='Dj Prince Kim at event' />
+              <section className='home-service-text'>
+                <h3>Events DeeJay</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores fugiat in pariatur vero quaerat laboriosam rerum.
+                  Pariatur, molestiae vitae libero.
+                </p>
+              </section>
+            </div>
+            <div className='home-service'>
+              <Image src='/dj-p-k-videography.jpg' width={100} height={100} alt='Dj Prince Kim videography' />
+              <section className='home-service-text'>
+                <h3>Photo & Videography</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores fugiat in pariatur vero quaerat laboriosam rerum.
+                  Pariatur, molestiae vitae libero.
+                </p>
+              </section>
+            </div>
+            <div className='home-service'>
+              <Image src='/dj-p-k-kubamba-studio.jpg' width={100} height={100} alt='Dj Prince Kim studio' />
+              <section className='home-service-text'>
+                <h3>TV, Radio & Corporate</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores fugiat in pariatur vero quaerat laboriosam rerum.
+                  Pariatur, molestiae vitae libero.
+                </p>
+              </section>
+            </div>
           </div>
+        </section>
+        {/* ========== SERVICES ========== */}
       </div>
     </>
   );

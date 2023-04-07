@@ -76,13 +76,13 @@ header > section #hidden > a {
 
 /* Medium devices (tablets, 768px and above till next break point) */
 @media (min-width: 768px) {
+  header > section > nav > a {
+    font-size: 1.2rem;
+  }
 }
 
 /* Large devices (desktops, 992px and above till next break point) */
 @media (min-width: 992px) {
-  header > section > nav > a {
-    font-size: 1.3rem;
-  }
 }
 
 /* Very large devices (desktops, 1200px and above till next break point) */
