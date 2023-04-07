@@ -1,5 +1,6 @@
 :root {
   --transpatentBlack: rgba(0, 0, 0, 0.9);
+  --darkGrey: #414141;
 }
 
 * {

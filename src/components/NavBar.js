@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
-  const [showLinks, setShowLinks] = useState(true);
+  const [showLinks, setShowLinks] = useState(false);
   return (
     <header>
       <section>
@@ -34,7 +34,6 @@ const NavBar = () => {
           <Link href='/'>Home</Link>
           <Link href='/about'>About Me</Link>
           <Link href='/services'>Services</Link>
-          <Link href='/hire'>Hire</Link>
           <Link href='/mixes'>Mixes</Link>
           <Link href='/contacts'>Contacts</Link>
         </nav>

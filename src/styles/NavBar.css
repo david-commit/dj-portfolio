@@ -47,7 +47,6 @@ header > section #hidden > a {
 /* ========== NAVBAR ========== */
 /* ========== HOME ========== */
 /* -- SLIDER -- */
-/* Slideshow */
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
@@ -90,6 +89,53 @@ header > section #hidden > a {
 }
 
 /* -- SLIDER -- */
+/* -- HOME - ABOUT -- */
+.home-about-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 3rem auto 2rem;
+}
+
+.home-about-image {
+  width: 75%;
+  margin: auto;
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.home-about-image img {
+  width: 100%;
+  margin: auto;
+  height: min-content;
+}
+
+.home-about-text h2 {
+  padding-bottom: 0.6rem;
+}
+
+.home-about-text p {
+  color: var(--darkGray);
+}
+
+.home-about-text button {
+  background-color: var(--transpatentBlack);
+  color: white;
+  border: 1px solid var(--transpatentBlack);
+  font-size: 1rem;
+  padding: 6px 10px;
+  margin-top: 0.8rem;
+  border-radius: 4px;
+}
+
+.home-about-text button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* -- HOME - ABOUT -- */
 /* ====== MEDIA QUERIES ====== */
 /* Best Practice suggests */
 /* keep default style for smallest screen size (portrait mobile, below 576px) */
@@ -105,16 +151,21 @@ header > section #hidden > a {
 
   header > section > nav {
     display: flex;
+    position: unset;
   }
 
   header > section > nav > a {
     color: white;
     margin-left: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .nav-toggle {
     display: none;
+  }
+
+  .slide {
+    height: 500px;
   }
 }
 
