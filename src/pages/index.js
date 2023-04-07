@@ -90,6 +90,9 @@ export default function Home() {
               src='/dj-p-k-nice-studio-potrait.png'
               height={100}
               width={100}
+              unoptimized
+              style={{ filter: 'drop-shadow(-2px 2px 3px black)' }}
+              alt='Dj Prince Kim'
             />
           </div>
           <div className='home-about-text'>
@@ -100,12 +103,23 @@ export default function Home() {
               repellat quos dolorum asperiores unde expedita similique officia
               recusandae, veniam quidem minus! Ducimus!
             </p>
-            <Link href='/'>
+            <p className='home-about-additional-text'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequuntur quod tempora nam quasi nihil culpa aliquid magni
+              repellat
+            </p>
+            <Link href='/contacts'>
               <button>Contact me</button>
             </Link>
           </div>
         </div>
         {/* ========== HOME - ABOUT ========== */}
+          <div className='home-friends-full-seperator'>
+            <Image src='/dj-p-k-kubamba-backdrop.jpg'
+            width={100}
+            height={100}
+            unoptimized />
+          </div>
       </div>
     </>
   );
