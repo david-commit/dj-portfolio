@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import Link from 'next/link';
+import Events from '@/components/Events';
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -194,6 +195,7 @@ export default function Home() {
             accusantium natus.
           </p>
         </div>
+        <Events />
         {/* ========== EVENTS ========== */}
       </div>
     </>

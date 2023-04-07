@@ -2,6 +2,8 @@ import '@/styles/globals.css';
 import NavBar from '@/components/NavBar';
 import '../styles/NavBar.css';
 import '../styles/Home.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { Open_Sans } from 'next/font/google'
 // import Font Awesome CSS
 import "@fortawesome/fontawesome-svg-core/styles.css"; 
