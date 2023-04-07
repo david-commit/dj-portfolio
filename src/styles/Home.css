@@ -114,7 +114,7 @@
 /* -- SERVICES -- */
 .home-services-main-container {
   width: 85%;
-  margin: auto;
+  margin: 5rem auto;
 }
 
 .home-services-main-container h1 {
@@ -139,6 +139,7 @@
   height: auto;
   border-radius: 1rem;
   margin: 1.5rem auto;
+  box-shadow: var(--boxShadow);
 }
 
 .home-service img {
@@ -195,10 +196,6 @@
     text-align: left;
   }
 
-  .home-about-text h2 {
-    font-size: 1.9rem;
-  }
-
   .home-about-text p {
     color: var(--darkGray);
     line-height: 1.5rem;
@@ -220,7 +217,15 @@
     margin-top: -30px;
   }
   /* -- FULL IMAGE -- */
-  
+  /* -- SERVICES -- */
+  .home-service img {
+    height: 300px;
+  }
+
+  .home-service-text p {
+    line-height: 1.6rem;
+  }
+  /* -- SERVICES -- */
 }
 
 /* Medium devices (tablets, 768px and above till next break point) */
@@ -246,6 +251,10 @@
     text-align: left;
   }
 
+  .home-about-text h2 {
+    font-size: 1.9rem;
+  }
+
   .home-about-additional-text {
     display: flex;
   }
@@ -259,6 +268,42 @@
     margin-top: -40px;
   }
   /* -- FULL IMAGE -- */
+  /* -- SERVICES -- */
+  .home-services-main-container {
+    width: 95%;
+  }
+
+  .home-services-container {
+    display: flex;
+  }
+
+  .home-services-main-container > p {
+    width: 85%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .home-service {
+    margin: 0.2rem 0.5rem;
+  }
+
+  .home-service img {
+    height: 150px;
+  }
+
+  .home-service-text {
+    padding: 0.5rem;
+  }
+
+  .home-service-text h3 {
+    font-size: 0.95rem;
+  }
+
+  .home-service-text > p {
+    font-size: 0.85rem;
+    text-align: left;
+    line-height: 1.4rem;
+  }
+  /* -- SERVICES -- */
 }
 
 /* Large devices (desktops, 992px and above till next break point) */
@@ -289,6 +334,41 @@
     margin-top: -55px;
   }
   /* -- FULL IMAGE -- */
+  /* -- SERVICES -- */
+  .home-services-main-container {
+    width: 85%;
+  }
+
+  .home-services-container {
+    display: flex;
+  }
+
+  .home-services-main-container > p {
+    width: 75%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .home-service {
+    margin: 0.2rem 0.6rem;
+  }
+
+  .home-service img {
+    height: 180px;
+  }
+
+  .home-service-text {
+    padding: 0.7rem;
+  }
+
+  .home-service-text h3 {
+    font-size: 1.1rem;
+  }
+
+  .home-service-text > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  /* -- SERVICES -- */
 }
 
 /* Very large devices (desktops, 1200px and above till next break point) */
@@ -318,6 +398,33 @@
     margin-top: -90px;
   }
   /* -- FULL IMAGE -- */
+  /* -- SERVICES -- */
+  .home-services-main-container > p {
+    width: 60%;
+  }
+
+  .home-service {
+    margin: 0.2rem 0.8rem;
+  }
+
+  .home-service img {
+    height: 210px;
+  }
+
+  .home-service-text {
+    padding: 0.7rem;
+  }
+
+  .home-service-text h3 {
+    font-size: 1.3rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .home-service-text > p {
+    font-size: 1.05rem;
+    line-height: 1.55rem;
+  }
+  /* -- SERVICES -- */
 }
 
 /* Very large devices (desktops, 1500px and above till next break point) */
@@ -344,6 +451,36 @@
     margin-top: -120px;
   }
   /* -- FULL IMAGE -- */
+  /* -- SERVICES -- */
+  .home-services-main-container {
+    margin: 6rem auto;
+  }
+
+  .home-services-main-container h1 {
+    font-size: 2rem;
+  }
+
+  .home-services-main-container > p {
+    font-size: 1.05rem;
+  }
+
+  .home-service {
+    margin: 0.2rem 0.8rem;
+  }
+
+  .home-service img {
+    height: 280px;
+  }
+
+  .home-service-text {
+    padding: 1rem;
+  }
+
+  .home-service-text h3 {
+    font-size: 1.3rem;
+    padding-bottom: 0.4rem;
+  }
+  /* -- SERVICES -- */
 }
 /* ====== MEDIA QUERIES ====== */
 /* ========== HOME ========== */
