@@ -132,7 +132,13 @@ export default function Home() {
           </p>
           <div className='home-services-container'>
             <div className='home-service'>
-              <Image src='/dj-p-k-in-event.jpg' width={100} height={100} alt='Dj Prince Kim at event' />
+              <Image
+                src='/dj-p-k-in-event.jpg'
+                width={100}
+                height={100}
+                alt='Dj Prince Kim at event'
+                unoptimized
+              />
               <section className='home-service-text'>
                 <h3>Events DeeJay</h3>
                 <p>
@@ -143,7 +149,13 @@ export default function Home() {
               </section>
             </div>
             <div className='home-service'>
-              <Image src='/dj-p-k-videography.jpg' width={100} height={100} alt='Dj Prince Kim videography' />
+              <Image
+                src='/dj-p-k-videography.jpg'
+                width={100}
+                height={100}
+                alt='Dj Prince Kim videography'
+                unoptimized
+              />
               <section className='home-service-text'>
                 <h3>Photo & Videography</h3>
                 <p>
@@ -154,7 +166,13 @@ export default function Home() {
               </section>
             </div>
             <div className='home-service'>
-              <Image src='/dj-p-k-kubamba-studio.jpg' width={100} height={100} alt='Dj Prince Kim studio' />
+              <Image
+                src='/dj-p-k-kubamba-studio.jpg'
+                width={100}
+                height={100}
+                alt='Dj Prince Kim studio'
+                unoptimized
+              />
               <section className='home-service-text'>
                 <h3>TV, Radio & Corporate</h3>
                 <p>
