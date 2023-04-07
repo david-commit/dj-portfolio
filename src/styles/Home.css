@@ -375,10 +375,19 @@
 @media (min-width: 1200px) {
   .home-about-container {
     justify-content: space-evenly;
+    margin-top: 12rem;
   }
+
   .home-about-image {
     width: 40%;
     text-align: right;
+    overflow: unset;
+    position: relative;
+    z-index: -10;
+  }
+
+  .home-about-image img {
+    scale: 1.4;
   }
 
   .home-about-text {
@@ -404,7 +413,7 @@
   }
 
   .home-service {
-    margin: 0.2rem 0.8rem;
+    margin: 0.2rem 0.9rem;
   }
 
   .home-service img {
@@ -431,6 +440,10 @@
 @media (min-width: 1500px) {
   .slide {
     height: 700px;
+  }
+
+  .home-about-image img {
+    scale: 1.7;
   }
 
   .home-about-text h2 {
@@ -465,7 +478,7 @@
   }
 
   .home-service {
-    margin: 0.2rem 0.8rem;
+    margin: 0.2rem 1rem;
   }
 
   .home-service img {

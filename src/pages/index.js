@@ -185,6 +185,16 @@ export default function Home() {
           </div>
         </section>
         {/* ========== SERVICES ========== */}
+        {/* ========== EVENTS ========== */}
+        <div className='home-events-main-container'>
+          <h1>Events</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+            similique consectetur! Iusto libero quae, labore amet sed
+            accusantium natus.
+          </p>
+        </div>
+        {/* ========== EVENTS ========== */}
       </div>
     </>
   );
