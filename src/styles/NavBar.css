@@ -112,6 +112,10 @@ header > section #hidden > a {
   height: min-content;
 }
 
+.home-about-text {
+  text-align: center;
+}
+
 .home-about-text h2 {
   padding-bottom: 0.6rem;
 }
@@ -134,6 +138,10 @@ header > section #hidden > a {
   background-color: transparent;
   color: black;
   transition: all 0.35s ease-in-out;
+}
+
+.home-about-additional-text {
+  display: none;
 }
 /* -- HOME - ABOUT -- */
 /* -- FULL IMAGE -- */
@@ -202,6 +210,7 @@ header > section #hidden > a {
 
   .home-about-text {
     width: 50%;
+    text-align: left;
   }
 
   .home-about-text h2 {
@@ -236,6 +245,28 @@ header > section #hidden > a {
   .slide {
     height: 650px;
   }
+
+  .home-about-container {
+    height: 300px;
+  }
+
+  .home-about-image {
+    width: 40%;
+  }
+
+  .home-about-image img {
+    max-width: 350px;
+  }
+
+  .home-about-text {
+    width: 58%;
+    text-align: left;
+  }
+
+  .home-about-additional-text {
+    display: flex;
+  }
+
   /* -- FULL IMAGE -- */
   .home-friends-full-seperator {
     height: 320px;
@@ -249,6 +280,27 @@ header > section #hidden > a {
 
 /* Large devices (desktops, 992px and above till next break point) */
 @media (min-width: 992px) {
+  header > section > nav > a {
+    font-size: 1.3rem;
+  }
+
+  .home-about-image {
+    width: 40%;
+  }
+
+  .home-about-image img {
+    max-width: 350px;
+  }
+
+  .home-about-text {
+    width: 58%;
+    text-align: left;
+  }
+
+  .home-about-additional-text {
+    padding-top: 0.5rem;
+  }
+
   /* -- FULL IMAGE -- */
   .home-friends-full-seperator {
     height: 350px;
@@ -262,6 +314,23 @@ header > section #hidden > a {
 
 /* Very large devices (desktops, 1200px and above till next break point) */
 @media (min-width: 1200px) {
+  .home-about-container {
+    justify-content: space-evenly;
+  }
+  .home-about-image {
+    width: 40%;
+    text-align: right;
+  }
+
+  .home-about-text {
+    width: 50%;
+  }
+
+      .home-about-text p {
+    line-height: 1.8rem;
+    
+  }
+
   /* -- FULL IMAGE -- */
   .home-friends-full-seperator {
     height: 450px;
@@ -275,8 +344,18 @@ header > section #hidden > a {
 
 /* Very large devices (desktops, 1500px and above till next break point) */
 @media (min-width: 1500px) {
-    .slide {
+  .slide {
     height: 700px;
+  }
+
+  .home-about-text h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+    .home-about-text p {
+    font-size: 1.1rem;
+    color: var(--darkGray);
   }
   /* -- FULL IMAGE -- */
   .home-friends-full-seperator {
