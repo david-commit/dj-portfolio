@@ -195,7 +195,9 @@ export default function Home() {
             accusantium natus.
           </p>
         </div>
-        <Events />
+        <div className='home-events-container'>
+          <Events />
+        </div>
         {/* ========== EVENTS ========== */}
       </div>
     </>

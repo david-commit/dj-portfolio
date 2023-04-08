@@ -162,6 +162,35 @@
   margin-bottom: unset;
 }
 /* -- SERVICES -- */
+/* -- EVENTS -- */
+.home-events-main-container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.home-events-main-container h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-events-container {
+  width: 75%;
+  margin: auto;
+}
+
+.home-events-slider {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 1.5rem;
+}
+
+.home-events-slider img {
+  padding: 0 10px;
+  width: 5px;
+  height: 120px auto;
+}
+/* -- EVENTS -- */
 /* ====== MEDIA QUERIES ====== */
 /* Best Practice suggests */
 /* keep default style for smallest screen size (portrait mobile, below 576px) */
