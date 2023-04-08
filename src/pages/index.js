@@ -194,11 +194,12 @@ export default function Home() {
             similique consectetur! Iusto libero quae, labore amet sed
             accusantium natus.
           </p>
-        </div>
-        <div className='home-events-container'>
-          <Events />
+          <div className='home-events-container'>
+            <Events />
+          </div>
         </div>
         {/* ========== EVENTS ========== */}
+        <div className='background-hands-image'></div>
       </div>
     </>
   );

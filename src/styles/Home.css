@@ -175,13 +175,11 @@
 }
 
 .home-events-container {
-  width: 75%;
+  width: 85%;
   margin: auto;
 }
 
 .home-events-slider {
-  /* display: flex;
-  justify-content: space-between; */
   margin-top: 1.5rem;
 }
 
@@ -191,6 +189,17 @@
   height: 120px auto;
 }
 /* -- EVENTS -- */
+.background-hands-image {
+  width: 100%;
+  opacity: 0.4;
+  height: 140px;
+  background-image: url('../../public/hands.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  margin-top: -100px;
+  position: relative;
+}
 /* ====== MEDIA QUERIES ====== */
 /* Best Practice suggests */
 /* keep default style for smallest screen size (portrait mobile, below 576px) */
@@ -399,6 +408,9 @@
     line-height: 1.5rem;
   }
   /* -- SERVICES -- */
+  .background-hands-image {
+    height: 180px;
+  }
 }
 
 /* Very large devices (desktops, 1200px and above till next break point) */

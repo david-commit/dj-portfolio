@@ -2,6 +2,8 @@ import '@/styles/globals.css';
 import NavBar from '@/components/NavBar';
 import '../styles/NavBar.css';
 import '../styles/Home.css';
+import '../styles/Footer.css';
+import Footer from '@/components/Footer';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Open_Sans } from 'next/font/google'
@@ -25,6 +27,7 @@ export default function App({ Component, pageProps }) {
       <main>
         <Component {...pageProps} />
       </main>
+      <Footer />
     </div>
   );
 }
