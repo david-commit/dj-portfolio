@@ -1,0 +1,32 @@
+/* ========== FOOTER ========== */
+footer {
+ background-color: black;
+ color: white;
+ height: 200px;
+ padding: 2rem;
+}
+/* ========== FOOTER ========== */
+/* ====== MEDIA QUERIES ====== */
+/* Best Practice suggests */
+/* keep default style for smallest screen size (portrait mobile, below 576px) */
+/* and then proceed in assending order with media query like below */
+
+/* Small devices (landscape phones, 576px and above till next break point) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and above till next break point) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and above till next break point) */
+@media (min-width: 992px) {
+}
+
+/* Very large devices (desktops, 1200px and above till next break point) */
+@media (min-width: 1200px) {
+}
+
+/* Very large devices (desktops, 1500px and above till next break point) */
+@media (min-width: 1500px) {
+}
