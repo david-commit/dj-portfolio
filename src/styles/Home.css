@@ -103,6 +103,7 @@
   height: 200px;
   overflow: hidden;
   margin: 3rem 0;
+  box-shadow: 1px 1px 200px 1px #ccc;
 }
 
 .home-friends-full-seperator > img {
