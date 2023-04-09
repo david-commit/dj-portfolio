@@ -1,27 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: 'block',
-        background: '#ccc',
-        borderRadius: '50%',
-        border: 'none',
-        height: '20px',
-        width: '20px',
-        scale: '1.3',
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
+function Arrows(props) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -53,8 +33,8 @@ export default function Events() {
     autoplay: true,
     autoplaySpeed: 5000,
     lazyLoad: true,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
+    nextArrow: <Arrows />,
+    prevArrow: <Arrows />,
     responsive: [
       {
         breakpoint: 1024,
@@ -77,7 +57,7 @@ export default function Events() {
         breakpoint: 576,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
         },
       },
     ],
@@ -104,7 +84,7 @@ export default function Events() {
   return (
     <Slider {...settings} className='home-events-slider'>
       {images.map((img, i) => {
-        return <img src={img} alt={`Event poster ${i + 1}`} />;
+        return <img src={img} key={img} alt={`Event poster ${i + 1}`} />;
       })}
     </Slider>
   );

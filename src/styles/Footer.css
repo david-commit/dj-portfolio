@@ -1,9 +1,21 @@
 /* ========== FOOTER ========== */
 footer {
- background-color: black;
- color: white;
- height: 200px;
- padding: 2rem;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  padding-top: 1rem;
+  /* border: 1px solid white; */
+ }
+ 
+ .footer-section {
+  margin: 0 auto;
+  text-align: center;
+  
 }
 /* ========== FOOTER ========== */
 /* ====== MEDIA QUERIES ====== */
