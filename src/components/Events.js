@@ -88,9 +88,17 @@ export default function Events() {
     '/posters/dj-p-kfrma-nomenee.jpg',
     '/posters/dj-p-k-heaven-bound-poster.jpg',
     '/posters/dj-p-k-nrg-show-poster.jpg',
+    '/posters/dj-p-k-poster-kubamba.jpg',
+    '/posters/dj-p-k-poster-poster-kubash-ngong.jpg',
+    '/posters/dj-p-k-poster-royal-knights.jpg',
+    '/posters/dj-p-k-groove-awards-better-poster.jpg',
     '/posters/dj-p-k-event-254-live.jpg',
     '/posters/dj-p-k-xtreem-awards-poster.jpg',
     '/posters/dj-p-k-marantha-awards-poster.jpg',
+    '/posters/dj-p-k-album-launch.jpg',
+    '/posters/dj-p-k-poster-kubamba-sports.jpg',
+    '/posters/dj-p-k-poster-kubamba-d.jpg',
+    '/posters/dj-p-k-truth-fm-poster.jpg',
   ];
 
   return (
