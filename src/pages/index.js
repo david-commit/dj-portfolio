@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import Link from 'next/link';
-import Events from '@/components/Events';
+import EventsSlider from '@/components/EventsSlider';
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -195,7 +195,7 @@ export default function Home() {
             accusantium natus.
           </p>
           <div className='home-events-container'>
-            <Events />
+            <EventsSlider />
           </div>
         </div>
         {/* ========== EVENTS ========== */}
