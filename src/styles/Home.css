@@ -409,7 +409,8 @@
   }
   /* -- SERVICES -- */
   .background-hands-image {
-    height: 180px;
+    margin-top: -180px;
+    height: 260PX;
   }
 }
 
