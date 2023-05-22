@@ -1,0 +1,41 @@
+.hire-main-container {
+  width: 85%;
+  display: flex;
+  margin: 3rem auto;
+  flex-direction: column;
+}
+
+.hire-main-container > h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#hire-form {
+  width: 100%;
+}
+
+#hire-form fieldset {
+  border: none;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#hire-form fieldset > label {
+  font-size: 0.9rem;
+}
+
+#hire-form fieldset > input,
+#hire-form fieldset > select {
+ margin-top: 6px;
+ padding: 6px 8px;
+ width: 100%;
+ border-radius: 4px;
+ border: 1px solid #ccc;
+ font-size: 0.9rem;
+}
+
+.required {
+  color: red;
+}
