@@ -1,7 +1,7 @@
 /* ========== NAVBAR ========== */
 header {
   width: 100%;
-  background-color: var(--transpatentBlack);
+  background-color: black;
   height: 100px;
   display: flex;
   align-items: center;

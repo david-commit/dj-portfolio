@@ -138,9 +138,18 @@
   width: 100%;
   border: 1px solid #ccc;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 1.5rem auto;
   box-shadow: var(--boxShadow);
+  overflow: hidden;
+}
+
+.home-service:hover {
+  box-shadow:  1px 1px 10px 1px #3d3d3d;
+}
+
+.home-service img:hover {
+  scale: 1.05;
 }
 
 .home-service img {
@@ -148,11 +157,10 @@
   width: 100%;
   height: 225px;
   object-fit: cover;
-  border-radius: 1rem 1rem 0 0;
 }
 
 .home-service-text {
-  padding: 1rem;
+  padding: 1.5rem 1rem 2rem;
 }
 
 .home-service-text p {
@@ -464,7 +472,7 @@
   }
 
   .home-service-text {
-    padding: 0.7rem;
+    padding: 1.5rem 1rem 2rem;
   }
 
   .home-service-text h3 {
@@ -522,14 +530,6 @@
 
   .home-service {
     margin: 0.2rem 1rem;
-  }
-
-  .home-service img {
-    height: 280px;
-  }
-
-  .home-service-text {
-    padding: 1rem;
   }
 
   .home-service-text h3 {

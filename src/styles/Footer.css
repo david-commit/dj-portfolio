@@ -3,16 +3,16 @@ footer {
   background-color: black;
   color: white;
   height: 100px;
+  /* border: 1px solid white; */
+  display: grid;
 }
 
 .footer-container {
   width: 85%;
   margin: auto;
-  padding-top: 1rem;
-  /* border: 1px solid white; */
- }
- 
- .footer-section {
+}
+
+.footer-section {
   margin: 0 auto;
   text-align: center;
   

@@ -32,8 +32,8 @@ const NavBar = () => {
         </div>
         <nav id={showLinks ? 'hidden' : ''} onClick={() => setShowLinks(false)}>
           <Link href='/'>Home</Link>
-          <Link href='/about'>About Me</Link>
           <Link href='/services'>Services</Link>
+          <Link href='/hire'>Hire</Link>
           <Link href='/mixes'>Mixes</Link>
           <Link href='/contacts'>Contacts</Link>
         </nav>
